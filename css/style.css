@@ -9,7 +9,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  animation: scroll 40s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 img {
@@ -23,7 +23,7 @@ img {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(calc(-100vh * 2));
+    transform: translateY(calc(-100vh * 3));
   }
 
 }
