@@ -9,15 +9,15 @@
 }
 
 .slider-1 {
-  width: 50%;
+  width: 25%;
   height: 100vh;
-  animation: scroll-1 10s linear infinite;
+  animation: scroll-1 20s linear infinite;
 }
 
 .slider-2 {
-  width: 50%;
+  width: 25%;
   height: 100vh;
-  animation: scroll-2 10s linear infinite;
+  animation: scroll-2 20s linear infinite;
 }
 
 .slide {
