@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  animation: scroll 40s linear infinite;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+@keyframes scroll {
+
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-100vh * 2));
+  }
+
+}
