@@ -42,7 +42,7 @@ ul {
   display: none;
 }
 
-.container {
+main {
   width: 100%;
   height: calc(100vh - 100px);
   overflow-y: hidden;
@@ -123,7 +123,7 @@ hr {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-50%);
+    transform: translateY(-142%);
   }
 
 }
@@ -131,7 +131,7 @@ hr {
 @keyframes slide-down {
 
   0% {
-    transform: translateY(-50%);
+    transform: translateY(-142%);
   }
   100% {
     transform: translateY(0);
