@@ -1,15 +1,8 @@
-$("i.fas.fa-bars").click(
+$(".hamburger-icon").click(
     function () {
         $(".menu").fadeToggle();
-        $(".fa-times").show();
-        $(".fa-bars").hide();
-    }
-);
-
-$("i.fas.fa-times").click(
-    function () {
-        $(".menu").fadeToggle();
-        $(".fa-times").hide();
-        $(".fa-bars").show();
+        $(".top").toggleClass("rotate-1");
+        $(".middle").toggleClass("opacity");
+        $(".bottom").toggleClass("rotate-2");
     }
 );

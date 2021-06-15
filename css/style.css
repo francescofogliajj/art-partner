@@ -20,6 +20,49 @@ header img {
   height: 45px;
 }
 
+.hamburger-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.top,
+.middle,
+.bottom {
+  width: 30px;
+  height: 3.5px;
+  background-color: black;
+  transition: transform 0.5s;
+}
+
+.top,
+.bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top {
+  transform: translateY(-8px);
+}
+.bottom {
+  transform: translateY(8px);
+}
+
+.middle {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.rotate-1 {
+  transform: rotate(45deg);
+}
+.rotate-2 {
+  transform: rotate(-45deg);
+}
+.opacity {
+  opacity: 0;
+}
+
 .menu {
   display: none;
   width: 100%;
