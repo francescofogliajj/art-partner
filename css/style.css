@@ -56,14 +56,24 @@ main {
   padding: 0 10px;
 }
 
-.slider {
+.slider-1 {
   height: 100%;
-  animation: slide-up 40s linear infinite;
+  animation: scroll-1 40s linear infinite;
 }
 
-.slider-down {
+.slider-2 {
   height: 100%;
-  animation: slide-down 40s linear infinite;
+  animation: scroll-2 40s linear infinite;
+}
+
+.slider-3 {
+  height: 100%;
+  animation: scroll-3 40s linear infinite;
+}
+
+.slider-4 {
+  height: 100%;
+  animation: scroll-4 40s linear infinite;
 }
 
 .slide {
@@ -117,7 +127,7 @@ hr {
   background-color: black;
 }
 
-@keyframes slide-up {
+@keyframes scroll-1 {
 
   0% {
     transform: translateY(0);
@@ -128,7 +138,29 @@ hr {
 
 }
 
-@keyframes slide-down {
+@keyframes scroll-2 {
+
+  0% {
+    transform: translateY(-142%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes scroll-3 {
+
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-142%);
+  }
+
+}
+
+@keyframes scroll-4 {
 
   0% {
     transform: translateY(-142%);
