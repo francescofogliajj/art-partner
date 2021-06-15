@@ -50,14 +50,20 @@ ul {
   padding: 0 10px;
 }
 
-.slider {
+.column {
   width: 25%;
   height: calc(150vh - 90px);
   padding: 0 10px;
-  /* animation: slide-up 10s linear infinite; */
 }
-.slide-down {
-  /* animation: slide-down 10s linear infinite; */
+
+.slider {
+  height: 100%;
+  animation: slide-up 40s linear infinite;
+}
+
+.slider-down {
+  height: 100%;
+  animation: slide-down 40s linear infinite;
 }
 
 .slide {
@@ -117,7 +123,7 @@ hr {
     transform: translateY(0);
   }
   100% {
-    transform: translateY();
+    transform: translateY(-50%);
   }
 
 }
@@ -125,7 +131,7 @@ hr {
 @keyframes slide-down {
 
   0% {
-    transform: translateY();
+    transform: translateY(-50%);
   }
   100% {
     transform: translateY(0);
