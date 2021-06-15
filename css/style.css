@@ -141,7 +141,7 @@ hr {
 @keyframes scroll-2 {
 
   0% {
-    transform: translateY(-142%);
+    transform: translateY(-192%);
   }
   100% {
     transform: translateY(0);
