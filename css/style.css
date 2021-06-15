@@ -163,7 +163,7 @@ hr {
 @keyframes scroll-4 {
 
   0% {
-    transform: translateY(-192%);
+    transform: translateY(-164%);
   }
   100% {
     transform: translateY(0);
