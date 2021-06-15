@@ -23,6 +23,7 @@ header img {
 .hamburger-icon {
   width: 30px;
   height: 30px;
+  cursor: pointer;
   position: relative;
 }
 
@@ -33,14 +34,11 @@ header img {
   height: 3.5px;
   background-color: black;
   transition: transform 0.5s;
+  position: absolute;
+  top: 50%;
+  left: 0%;
 }
 
-.top,
-.bottom {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 .top {
   transform: translateY(-8px);
 }
