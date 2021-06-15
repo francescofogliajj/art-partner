@@ -1,6 +1,6 @@
 $("i.fas.fa-bars").click(
     function () {
-        $(".menu").slideDown();
+        $(".menu").fadeToggle();
         $(".fa-times").show();
         $(".fa-bars").hide();
     }
@@ -8,7 +8,7 @@ $("i.fas.fa-bars").click(
 
 $("i.fas.fa-times").click(
     function () {
-        $(".menu").slideUp();
+        $(".menu").fadeToggle();
         $(".fa-times").hide();
         $(".fa-bars").show();
     }
