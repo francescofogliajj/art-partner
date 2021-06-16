@@ -92,14 +92,14 @@ li {
   margin-bottom: 25px;
 }
 
-a {
+.menu a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-a:hover {
+.menu a:hover {
   opacity: 0.3;
 }
 
