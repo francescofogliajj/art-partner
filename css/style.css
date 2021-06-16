@@ -211,3 +211,16 @@ hr {
   }
 
 }
+
+@media screen and (max-width: 1040px) {
+
+  .column {
+    width: 50%;
+  }
+
+  .column:nth-child(2),
+  .column:nth-child(4) {
+    display: none;
+  }
+
+}
