@@ -99,22 +99,22 @@ main {
 
 .slider-1 {
   height: 100%;
-  animation: scroll-1 40s linear infinite;
+  animation: scroll-1 110s linear infinite;
 }
 
 .slider-2 {
   height: 100%;
-  animation: scroll-2 40s linear infinite;
+  animation: scroll-2 110s linear infinite;
 }
 
 .slider-3 {
   height: 100%;
-  animation: scroll-3 40s linear infinite;
+  animation: scroll-3 110s linear infinite;
 }
 
 .slider-4 {
   height: 100%;
-  animation: scroll-4 40s linear infinite;
+  animation: scroll-4 110s linear infinite;
 }
 
 .slide {
