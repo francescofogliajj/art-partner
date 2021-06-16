@@ -76,12 +76,16 @@ header img {
   left: 0;
 }
 
-ul {
+.links {
   list-style: none;
   width: 25%;
   float: left;
   text-align: left;
   padding: 20px 50px;
+}
+
+ul {
+  list-style: none;
 }
 
 li {
@@ -101,6 +105,17 @@ a:hover {
 
 .fa-instagram {
   font-size: 18px;
+}
+
+.staff li {
+  margin-bottom: 10px;
+}
+
+.staff a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
 
 main {
