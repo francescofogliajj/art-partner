@@ -74,6 +74,7 @@ header img {
   position: absolute;
   top: 90px;
   left: 0;
+  overflow-y: scroll;
 }
 
 .links {
