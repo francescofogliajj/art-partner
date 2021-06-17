@@ -421,7 +421,17 @@ let app = new Vue({
 
         staff_5: [
 
-            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+            "Akki | Hair",
+            "Shay Ashual | Hair",
+            "Cyndia Harvey | Hair",
+            "Jawara | Hair",
+            "Thomas de Kluyver | Makeup",
+            "Didier Malige | Hair",
+            "Aaron de Mey | Makeup",
+            "Lauren Parsons | Makeup",
+            "Lucia Pica | Makeup",
+            "Holli Smith | Hair",
+            "Yadim | Makeup"
 
         ]
 
