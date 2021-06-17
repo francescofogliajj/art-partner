@@ -275,3 +275,34 @@ h3 {
   }
 
 }
+
+@media screen and (max-width: 680px) {
+
+  header {
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  header img {
+    height: 25px;
+    margin-top: 10px;
+  }
+
+  .menu {
+    top: 55px;
+  }
+
+  main {
+    padding: 0 5px;
+  }
+
+  .column {
+    padding: 0 5px;
+  }
+
+  .slide {
+    padding-bottom: 10px;
+  }
+
+}
