@@ -312,125 +312,32 @@
 
           <div class="slider-3">
 
-            <a href="#">
-              <div class="slide">
-                <img src="https://www.artpartner.com/propeller/uploads/2021/06/AP1155533_-615x492.jpg" alt="img">
-                <div class="overlay">
-                  <div class="info">
-                    <h2>Alasdair McLellan</h2>
-                    <hr>
-                    <h3>Re-Edition Magazine:</h3>
-                    <h3>Linn 9000</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
+            <div class="slide" v-for="slide in slider_3">
 
-            <a href="#">
-              <div class="slide">
-                <video width="960" height="540" autoplay loop muted>
-                  <source src="https://www.artpartner.com/propeller/uploads/2021/03/PRE_DS_YSL_SS21.mp4" type="video/mp4">
-                </video>
-                <div class="overlay">
-                  <div class="info">
-                    <h2>David Sims</h2>
-                    <hr>
-                    <h3>Saint Laurent</h3>
-                    <h3>SS 2021</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
+              <a href="#">
 
-            <a href="#">
-              <div class="slide">
-                <img src="https://www.artpartner.com/propeller/uploads/2021/05/AP1154887_-615x923.jpg" alt="img">
-                <div class="overlay">
-                  <div class="info">
-                    <h2>Colin Dodgson</h2>
-                    <hr>
-                    <h3>American Vogue</h3>
-                    <h3>All In The Balance</h3>
-                  </div>
+                <div v-if="slide.img != '' ">
+                  <img :src="slide.img" :alt="slide.title">
                 </div>
-              </div>
-            </a>
 
-            <a href="#">
-              <div class="slide">
-                <video width="364" height="204" autoplay loop muted>
-                  <source src="https://www.artpartner.com/propeller/uploads/2018/08/MS_CalvinKlein_PREVIEW.mp4" type="video/mp4">
-                </video>
-                <div class="overlay">
-                  <div class="info">
-                    <h2>Mario Sorrenti</h2>
-                    <hr>
-                    <h3>Calvin Klein</h3>
-                    <h3>Obsessed</h3>
-                  </div>
+                <div v-if="slide.video != '' ">
+                  <video :width="slide.width" :height="slide.height" autoplay loop muted>
+                    <source :src="slide.video" type="video/mp4">
+                  </video>
                 </div>
-              </div>
-            </a>
 
-            <a href="#">
-              <div class="slide">
-                <img src="https://www.artpartner.com/propeller/uploads/2021/06/AP1155533_-615x492.jpg" alt="img">
                 <div class="overlay">
                   <div class="info">
-                    <h2>Alasdair McLellan</h2>
+                    <h2>{{ slide.author }}</h2>
                     <hr>
-                    <h3>Re-Edition Magazine:</h3>
-                    <h3>Linn 9000</h3>
+                    <h3>{{ slide.brand }}</h3>
+                    <h3>{{ slide.title }}</h3>
                   </div>
                 </div>
-              </div>
-            </a>
 
-            <a href="#">
-              <div class="slide">
-                <video width="960" height="540" autoplay loop muted>
-                  <source src="https://www.artpartner.com/propeller/uploads/2021/03/PRE_DS_YSL_SS21.mp4" type="video/mp4">
-                </video>
-                <div class="overlay">
-                  <div class="info">
-                    <h2>David Sims</h2>
-                    <hr>
-                    <h3>Saint Laurent</h3>
-                    <h3>SS 2021</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
+              </a>
 
-            <a href="#">
-              <div class="slide">
-                <img src="https://www.artpartner.com/propeller/uploads/2021/05/AP1154887_-615x923.jpg" alt="img">
-                <div class="overlay">
-                  <div class="info">
-                    <h2>Colin Dodgson</h2>
-                    <hr>
-                    <h3>American Vogue</h3>
-                    <h3>All In The Balance</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
-
-            <a href="#">
-              <div class="slide">
-                <video width="364" height="204" autoplay loop muted>
-                  <source src="https://www.artpartner.com/propeller/uploads/2018/08/MS_CalvinKlein_PREVIEW.mp4" type="video/mp4">
-                </video>
-                <div class="overlay">
-                  <div class="info">
-                    <h2>Mario Sorrenti</h2>
-                    <hr>
-                    <h3>Calvin Klein</h3>
-                    <h3>Obsessed</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
+            </div>
 
           </div>
 

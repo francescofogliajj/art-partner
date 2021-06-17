@@ -194,6 +194,91 @@ let app = new Vue({
             
         ],
 
+        slider_3: [
+
+            {
+                author: "Alasdair McLellan",
+                brand: "Re-Edition Magazine:",
+                title: "Linn 9000",
+                img: "https://www.artpartner.com/propeller/uploads/2021/06/AP1155533_-615x492.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "David Sims",
+                brand: "Saint Laurent",
+                title: "SS 2021",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2021/03/PRE_DS_YSL_SS21.mp4",
+                width: "960",
+                height: "540"
+            },
+
+            {
+                author: "Colin Dodgson",
+                brand: "American Vogue",
+                title: "All In The Balance",
+                img: "https://www.artpartner.com/propeller/uploads/2021/05/AP1154887_-615x923.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Mario Sorrenti",
+                brand: "Calvin Klein",
+                title: "Obsessed",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2018/08/MS_CalvinKlein_PREVIEW.mp4",
+                width: "364",
+                height: "204"
+            },
+
+
+            {
+                author: "Alasdair McLellan",
+                brand: "Re-Edition Magazine:",
+                title: "Linn 9000",
+                img: "https://www.artpartner.com/propeller/uploads/2021/06/AP1155533_-615x492.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "David Sims",
+                brand: "Saint Laurent",
+                title: "SS 2021",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2021/03/PRE_DS_YSL_SS21.mp4",
+                width: "960",
+                height: "540"
+            },
+
+            {
+                author: "Colin Dodgson",
+                brand: "American Vogue",
+                title: "All In The Balance",
+                img: "https://www.artpartner.com/propeller/uploads/2021/05/AP1154887_-615x923.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Mario Sorrenti",
+                brand: "Calvin Klein",
+                title: "Obsessed",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2018/08/MS_CalvinKlein_PREVIEW.mp4",
+                width: "364",
+                height: "204"
+            }
+
+        ],
+
     }
 
 });
