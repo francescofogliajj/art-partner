@@ -389,7 +389,7 @@ let app = new Vue({
 
         staff_2: [
 
-            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+            "Joe McKenna"
 
         ],
 
