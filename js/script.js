@@ -404,7 +404,18 @@ let app = new Vue({
 
         staff_4: [
 
-            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+            "Anastasia Barbieri",
+            "Beat Bolliger",
+            "Francesca Burns",
+            "Marie Chaix",
+            "Lucinda Chambers",
+            "Jane How",
+            "Suzanne Koller",
+            "Carlos Nazario",
+            "Camilla Nickerson",
+            "Robbie Spencer",
+            "Elodie David-Touboul",
+            "Melanie Ward"
 
         ],
 
