@@ -279,6 +279,91 @@ let app = new Vue({
 
         ],
 
+        slider_4: [
+
+            {
+                author: "Lachlan Bailey",
+                brand: "British Vogue",
+                title: "Golden Days",
+                img: "https://www.artpartner.com/propeller/uploads/2021/06/AP1158233_-615x796.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Mario Sorrenti",
+                brand: "Self Service 54",
+                title: "Bold",
+                img: "https://www.artpartner.com/propeller/uploads/2021/04/018_AP0294850-615x461.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Dan Tobin Smith",
+                brand: "Louis Vuitton",
+                title: "Les Parfums",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2018/09/PRE_DTS_LV_LES-PARFUMS_2016.mp4",
+                width: "1920",
+                height: "1080"
+            },
+
+            {
+                author: "Angelo Pennetta",
+                brand: "British Vogue",
+                title: "Landmark Moment",
+                img: "https://www.artpartner.com/propeller/uploads/2021/05/AP0295832_-615x802.jpg",
+                video: "",
+                width: "0",
+                height: "0"
+            },
+
+
+            {
+                author: "Lachlan Bailey",
+                brand: "British Vogue",
+                title: "Golden Days",
+                img: "https://www.artpartner.com/propeller/uploads/2021/06/AP1158233_-615x796.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Mario Sorrenti",
+                brand: "Self Service 54",
+                title: "Bold",
+                img: "https://www.artpartner.com/propeller/uploads/2021/04/018_AP0294850-615x461.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Dan Tobin Smith",
+                brand: "Louis Vuitton",
+                title: "Les Parfums",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2018/09/PRE_DTS_LV_LES-PARFUMS_2016.mp4",
+                width: "1920",
+                height: "1080"
+            },
+
+            {
+                author: "Angelo Pennetta",
+                brand: "British Vogue",
+                title: "Landmark Moment",
+                img: "https://www.artpartner.com/propeller/uploads/2021/05/AP0295832_-615x802.jpg",
+                video: "",
+                width: "0",
+                height: "0"
+            }
+
+        ]
+
     }
 
 });

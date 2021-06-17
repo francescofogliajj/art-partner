@@ -254,7 +254,8 @@ h3 {
 @keyframes scroll-4 {
 
   0% {
-    transform: translateY(-166%);
+    /* transform: translateY(-166%); */
+    transform: translateY(-150%);
   }
   100% {
     transform: translateY(0);
