@@ -395,7 +395,10 @@ let app = new Vue({
 
         staff_3: [
 
-            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+            "Lina Kutsovskaya",
+            "Ezra Petronio",
+            "Christopher Simmonds",
+            "Ferdinando Verderi"
 
         ],
 
