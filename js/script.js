@@ -362,6 +362,53 @@ let app = new Vue({
                 height: "0"
             }
 
+        ],
+
+
+        staff_1: [
+
+            "Mert Alas & Marcus Piggott",
+            "Lachlan Bailey",
+            "Anthony Cotsifas | Still Life",
+            "Colin Dodgson",
+            "Zoë Ghertner",
+            "Glen Luchford",
+            "Alasdair McLellan",
+            "Tyler Mitchell",
+            "Oliver Hadlee Pearch",
+            "Angelo Pennetta",
+            "David Sims",
+            "Dan Tobin Smith | Still Life",
+            "Mario Sorrenti",
+            "Jacob Sutton",
+            "Drew Vickers",
+            "Harley Weir",
+            "Theo Wenner"
+
+        ],
+
+        staff_2: [
+
+            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+
+        ],
+
+        staff_3: [
+
+            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+
+        ],
+
+        staff_4: [
+
+            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+
+        ],
+
+        staff_5: [
+
+            "Mert Alas & Marcus Piggott", "Lachlan Bailey"
+
         ]
 
     }
