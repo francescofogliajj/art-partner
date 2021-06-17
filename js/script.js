@@ -89,6 +89,111 @@ let app = new Vue({
 
         ],
 
+        slider_2: [
+
+            {
+                author: "Lachlan Bailey",
+                brand: "Vogue Paris",
+                title: "Joyaux De Nuit",
+                img: "https://www.artpartner.com/propeller/uploads/2021/06/AP1158198_-615x777.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Ferdinando Verderi",
+                brand: "Prada",
+                title: "Galleria Bag 2021",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2021/05/PRE_FV_PRADA_LEATHERGOODS.mp4",
+                width: "960",
+                height: "540"
+            },
+
+            {
+                author: "Carlos Nazario",
+                brand: "i-D Magazine",
+                title: "Naomi Campbell",
+                img: "https://www.artpartner.com/propeller/uploads/2021/03/002_AP0290997-615x799.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Ezra Petronio",
+                brand: "GLEN LUCHFORD / PRADA 96-98",
+                title: "BOOK ART DIRECTION & DESIGN",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2021/01/PRE_EP_GLEN-LUCHFORD_PRADA.mp4.mp4",
+                width: "810",
+                height: "540"
+            },
+
+            {
+                author: "Robbie Spencer",
+                brand: "M Le Monde",
+                title: "Masculin Pluriel",
+                img: "https://www.artpartner.com/propeller/uploads/2021/04/039_AP0293407-615x762.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+
+            {
+                author: "Lachlan Bailey",
+                brand: "Vogue Paris",
+                title: "Joyaux De Nuit",
+                img: "https://www.artpartner.com/propeller/uploads/2021/06/AP1158198_-615x777.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Ferdinando Verderi",
+                brand: "Prada",
+                title: "Galleria Bag 2021",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2021/05/PRE_FV_PRADA_LEATHERGOODS.mp4",
+                width: "960",
+                height: "540"
+            },
+
+            {
+                author: "Carlos Nazario",
+                brand: "i-D Magazine",
+                title: "Naomi Campbell",
+                img: "https://www.artpartner.com/propeller/uploads/2021/03/002_AP0290997-615x799.jpg",
+                video: "",
+                width: "",
+                height: ""
+            },
+
+            {
+                author: "Ezra Petronio",
+                brand: "GLEN LUCHFORD / PRADA 96-98",
+                title: "BOOK ART DIRECTION & DESIGN",
+                img: "",
+                video: "https://www.artpartner.com/propeller/uploads/2021/01/PRE_EP_GLEN-LUCHFORD_PRADA.mp4.mp4",
+                width: "810",
+                height: "540"
+            },
+
+            {
+                author: "Robbie Spencer",
+                brand: "M Le Monde",
+                title: "Masculin Pluriel",
+                img: "https://www.artpartner.com/propeller/uploads/2021/04/039_AP0293407-615x762.jpg",
+                video: "",
+                width: "",
+                height: ""
+            }
+            
+        ],
+
     }
 
 });
